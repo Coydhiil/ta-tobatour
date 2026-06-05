@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tobatour - Explore Danau Toba</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=close,dehaze,distance,photo_camera,price_check,support_agent"
+    />
+  </head>
+
+  <body>
+    <!-- Start Header + Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="nav-brand">
+          <h1><a href="index.html">Tobatour</a></h1>
+        </div>
+        <input type="checkbox" id="menu-actived" />
+        <label for="menu-actived" class="hamburger-menu">
+          <span class="material-symbols-outlined"> dehaze </span>
+        </label>
+        <label for="menu-actived" class="close-menu">
+          <span class="material-symbols-outlined"> close </span>
+        </label>
+        <div class="links-container">
+          <ul>
+            <li>
+              <a href="#hero">Home</a>
+              <a href="#packages">Tour Packages</a>
+              <a href="#destinations">Destinations</a>
+              <a href="#about">About</a>
+              <a href="#contact">Contact</a>
+              <a
+                href="https://www.dicoding.com/users/fadhiil_fn_etrp/academies"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="nav-dicoding"
+                >Dicoding Profile</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Start Header + Navbar -->
+
+    <!-- Start Hero -->
+    <main id="hero">
+      <div class="banner">
+        <img
+          src="images/danau.jpg"
+          alt="Pemandangan Danau Toba dari ketinggian"
+        />
+        <div class="content">
+          <article>
+            <h1>Jelajahi Keindahan Bersama <span>Tobatour</span></h1>
+            <p>
+              Destinasi wisata terbaik di Sumatera Utara. Rasakan pengalaman tak
+              terlupakan bersama Tobatour.
+            </p>
+            <div>
+              <a href="#packages">Pesan Sekarang</a>
+            </div>
+          </article>
+        </div>
+      </div>
+      <aside id="benefits">
+        <ul class="benefit-block">
+          <li>
+            <div class="iconbox">
+              <span class="material-symbols-outlined">distance</span>
+            </div>
+            <h3>Destinasi Terbaik</h3>
+            <p>
+              Banyak pilihan destinasi terbaik di sekitar Danau Toba yang bisa
+              kamu kunjungi.
+            </p>
+          </li>
+          <li>
+            <div class="iconbox">
+              <span class="material-symbols-outlined">price_check</span>
+            </div>
+            <h3>Harga Bersahabat</h3>
+            <p>
+              Paket yang kami tawarkan semuanya terjangkau dan sesuai budget.
+            </p>
+          </li>
+          <li>
+            <div class="iconbox">
+              <span class="material-symbols-outlined">support_agent</span>
+            </div>
+            <h3>24/7 Customer Service</h3>
+            <p>Mau booking kapanpun, kami siap membantu Anda.</p>
+          </li>
+        </ul>
+      </aside>
+    </main>
+    <!-- End Hero -->
+
+    <!-- Start Packages -->
+    <section id="packages">
+      <article class="section-header">
+        <h2>Our Tour Packages</h2>
+        <p>
+          Temukan paket wisata terbaik yang kami rancang untuk pengalaman
+          perjalanan yang tak terlupakan.
+        </p>
+      </article>
+      <aside class="package-container">
+        <div class="package-card">
+          <h3>Open Trip</h3>
+          <div class="package-info">
+            <p>3 hari 2 malam</p>
+            <ul>
+              <li>Transportasi: penerbangan PP, bus wisata</li>
+              <li>Akomodasi: hotel bintang 3</li>
+              <li>Makan: pagi dan malam</li>
+              <li>Lokasi: Bukit Holbung, Air Terjun Situmurun</li>
+            </ul>
+            <span class="price">Rp2.500.000</span>
+          </div>
+        </div>
+        <div class="package-card">
+          <h3>Private Trip</h3>
+          <div class="package-info">
+            <p>5 hari 4 malam</p>
+            <ul>
+              <li>Transportasi: penerbangan PP, sewa mobil</li>
+              <li>Akomodasi: villa eksklusif</li>
+              <li>Makan: pagi, siang, dan malam</li>
+              <li>
+                Lokasi: Bukit Holbung, Air Terjun Situmurun, Menara Pandang Tele
+              </li>
+            </ul>
+            <span class="price">Rp5.000.000</span>
+          </div>
+        </div>
+        <div class="package-card">
+          <h3>Custom Trip</h3>
+          <div class="package-info">
+            <p>Sesuai kebutuhan</p>
+            <ul>
+              <li>Transportasi: sesuai pilihan</li>
+              <li>Akomodasi: sesuai pilihan</li>
+              <li>Makan: sesuai pilihan</li>
+              <li>Lokasi: destinasi sesuai keinginan</li>
+            </ul>
+            <span class="price">Rp7.500.000</span>
+          </div>
+        </div>
+      </aside>
+    </section>
+    <!-- End Packages -->
+
+    <!-- Start Destination -->
+    <section id="destinations">
+      <article class="section-header">
+        <h2>Our Destinations</h2>
+        <p>Jelajahi berbagai destinasi memukau di sekitar Danau Toba.</p>
+      </article>
+      <aside class="destinations-container">
+        <div class="destination-card">
+          <img src="images/bukit_holbung.jpg" alt="Bukit Holbung" />
+          <h3>Bukit Holbung</h3>
+          <p>
+            Dikenal sebagai Teletubbies Hill, menawarkan pemandangan indah dan
+            udara segar di sekitar Danau Toba.
+          </p>
+        </div>
+        <div class="destination-card">
+          <img
+            src="images/binangalom-situmurun.jpg"
+            alt="Air Terjun Situmurun"
+          />
+          <h3>Air Terjun Situmurun</h3>
+          <p>
+            Air terjun unik setinggi 70 meter yang mengalir langsung ke Danau
+            Toba.
+          </p>
+        </div>
+        <div class="destination-card">
+          <img src="images/menara_pandang_tele.jpg" alt="Menara Pandang Tele" />
+          <h3>Menara Pandang Tele</h3>
+          <p>
+            Nikmati pemandangan luar biasa dari Menara Pandang Tele, titik
+            terbaik untuk menikmati keindahan Danau Toba.
+          </p>
+        </div>
+      </aside>
+    </section>
+    <!-- End Destinations -->
+
+    <!-- Start About -->
+    <section id="about">
+      <article class="section-header">
+        <h2>Tentang Kami</h2>
+        <p>Kenali lebih dekat tim di balik Tobatour.</p>
+      </article>
+
+      <div class="about-wrapper">
+        <aside class="about-photo">
+          <img src="images/danau.jpg" alt="Foto Tim Tobatour" />
+          <div class="photo-caption">
+            <h3>Tim Tobatour</h3>
+            <p>Tour Guide Profesional</p>
+          </div>
+        </aside>
+
+        <article class="about-content">
+          <h3>Selamat Datang di Tobatour</h3>
+          <p>
+            Tobatour adalah perusahaan wisata yang berdedikasi menghadirkan
+            pengalaman perjalanan terbaik di kawasan Danau Toba, Sumatera Utara.
+          </p>
+          <ul class="about-list">
+            <li>
+              <span class="material-symbols-outlined">distance</span>
+              Berpengalaman lebih dari 10 tahun di industri pariwisata
+            </li>
+            <li>
+              <span class="material-symbols-outlined">photo_camera</span> Lebih
+              dari 500 wisatawan puas setiap tahunnya
+            </li>
+            <li>
+              <span class="material-symbols-outlined">support_agent</span> Tim
+              guide bersertifikat dan profesional
+            </li>
+            <li>
+              <span class="material-symbols-outlined">price_check</span> Paket
+              harga transparan tanpa biaya tersembunyi
+            </li>
+          </ul>
+          <a href="#contact" class="btn-contact">Hubungi Kami</a>
+        </article>
+      </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Start Contact -->
+    <section id="contact">
+      <article class="section-header">
+        <h2>Hubungi Kami</h2>
+        <p>Siap membantu perjalanan impian Anda ke Danau Toba.</p>
+      </article>
+      <aside class="contact-container">
+        <div class="contact-card">
+          <span class="material-symbols-outlined">support_agent</span>
+          <h3>WhatsApp</h3>
+          <p>+62 896-9919-5668</p>
+        </div>
+        <div class="contact-card">
+          <span class="material-symbols-outlined">distance</span>
+          <h3>Email</h3>
+          <p>hello@tobatour.id</p>
+        </div>
+        <div class="contact-card">
+          <span class="material-symbols-outlined">photo_camera</span>
+          <h3>Instagram</h3>
+          <p>@tobatour.id</p>
+        </div>
+      </aside>
+    </section>
+    <!-- End Contact -->
+
+    <!-- Start Footer -->
+    <footer>
+      <p>&copy; 2026 Tobatour. All rights reserved.</p>
+      <p>
+        <a
+          href="https://www.dicoding.com/users/fadhiil_fn_etrp/academies"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Profil Dicoding</a
+        >
+      </p>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>
